@@ -30,27 +30,27 @@
 	foreach($L as $key => $val){
 		$L[$key]	= "<". substr($key, 0, 2) ." class=\"". trim($L[$key]) . "\"";
 	}
-	
-	$L[tr] ='<tr';
+
+	$L['tr'] ='<tr';
 //	$L[td] ='<td';
 	$L['vtop']	= "valign=\"top\"";
 
-	$L[tbl] ='<table cellspacing="0" class="board"';
-	$L[tbl1]='<table cellspacing="0" class="board c1"';
-	$L[tbl2]='<table cellspacing="0" class="board c2"';
-	$L[tblend]='</table>';
+	$L['tbl'] ='<table cellspacing="0" class="board"';
+	$L['tbl1']='<table cellspacing="0" class="board c1"';
+	$L['tbl2']='<table cellspacing="0" class="board c2"';
+	$L['tblend']='</table>';
 
-	$L[sm]	='<span class="sfont">';
+	$L['sm']	='<span class="sfont">';
 
-	$L[inpt]='<input type="text" name';
-	$L[inpp]='<input type="password" name';
-	$L[inph]='<input type="hidden" name';
-	$L[inps]='<input type="submit class="submit" name';
-	$L[inpr]='<input type="radio" class="radio" name';
-	$L[txta]='<textarea wrap="virtual" name';
+	$L['inpt']='<input type="text" name';
+	$L['inpp']='<input type="password" name';
+	$L['inph']='<input type="hidden" name';
+	$L['inps']='<input type="submit class="submit" name';
+	$L['inpr']='<input type="radio" class="radio" name';
+	$L['txta']='<textarea wrap="virtual" name';
 
-	$L[sel] ='<select name';
-	$L[opt] ='<option value';
+	$L['sel'] ='<select name';
+	$L['opt'] ='<option value';
 
 	$signsep[0]='<br><br>--------------------<br>';
 	$signsep[1]='<br><br>____________________<br>';
