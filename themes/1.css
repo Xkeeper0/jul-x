@@ -1,0 +1,111 @@
+/**/
+a:link			{	color:	#bebafe;		}
+a:visited		{	color:	#9990c0;		}
+a:active		{	color:	#cfbeff;		}
+a:hover			{	color:	#cecafe;		}
+
+a	{
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+body	{
+/*	background: url('http://jul.rustedlogic.net/images/nightscheme_starsbg.png') #000f1f;
+*/	background: url('../img/starsbg.png') #000f1f;
+	color: #ddd;
+	font-family: Verdana, Geneva, sans-serif;
+	}
+
+table.board	{
+	border-collapse: collapse;
+	color: white;
+	font-size: 1em;
+	}
+
+table.c1	{
+	width: 100%;
+	background: black;
+	border: #000000 1px solid;
+	}
+
+table.c2	{
+	width: 100%;
+	background: black;
+	border: #000000 1px solid;
+	font-size: 0.9em;
+	}
+
+tr.head	{
+	background: #302048;
+	text-align: center;
+	font-size: 0.9em;
+	color: #ffeeff;
+	}
+
+tr.cat	{
+	background: #2f2f5f;
+	text-align: center;
+	font-size: 0.9em;
+	color: #ffeeff;
+	}
+
+.bdr	{
+	padding:		2px 4px 2px 4px;
+	border:		#000000 1px solid;
+	}
+
+td.head	{
+	background:	#302048;
+	}
+
+td.nbdr	{
+	padding: 0px;
+	border: 0px none;
+	}
+
+tr.bg1,td.bg1	{
+	background: #171735;
+	}
+
+tr.bg2,td.bg2	{
+	background: #11112b;
+	}
+
+tr.bg3,td.bg3	{
+	background: #070720;
+	}
+
+.sfont	{
+	font-size: 0.8em;
+	}
+
+textarea,input,select	{
+	border:		#639 ridge 2px;
+	background:#000;
+	color:		 #fff;
+	font-family: Verdana, sans-serif;
+	}
+
+.radio	{
+	border: none;
+	background: none;
+	color: #DDDDDD;
+	font-family: Verdana, sans-serif;
+	}
+
+.submit	{
+	border: #75b ridge 2px;
+	color: #fff;
+	font-weight: bold;
+	}
+
+.left	{ text-align: left;		}
+.center	{ text-align: center;	}
+.right	{ text-align: right;	}
+.bold	{ font-weight: bold;	}
+
+.nc0x	{color:#888888	}	 .nc1x	{color:#888888	}	 .nc2x	{color:#888888	}	
+.nc00	{color:#97ACEF	}	 .nc10	{color:#F185C9	}	 .nc20	{color:#7C60B0	}	
+.nc01	{color:#D8E8FE	}	 .nc11	{color:#FFB3F3	}	 .nc21	{color:#EEB9BA	}	
+.nc02	{color:#AFFABE	}	 .nc12	{color:#C762F2	}	 .nc22	{color:#47B53C	}	
+.nc03	{color:#FFEA95	}	 .nc13	{color:#C53A9E	}	 .nc23	{color:#F0C413	}	
