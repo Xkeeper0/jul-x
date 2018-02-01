@@ -1,6 +1,7 @@
 <?php
 
 	// Included files
+	require "inc/autoload.inc.php";
 	require "inc/config.inc.php";
 	require "inc/functions.inc.php";
 	require "inc/mysqlcompat.inc.php";

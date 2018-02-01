@@ -16,7 +16,7 @@
 		function selectdb($dbname)			{return mysql_select_db($dbname);}
 
 		function query($query){
-			if($_GET[q])
+			if($_GET['q'])
 				print "$query<br>";
 			$start	=microtime(true);
 			if( $res = mysql_query($query)) {
